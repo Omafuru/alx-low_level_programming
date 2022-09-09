@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/**
+ * main - prints the alphabet in lowercase,
+ * ommit e and q
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	int ch;
+
+	for (ch = 'a'; ch <= 'd'; ch++)
+		putchar(ch);
+
+	for (ch = 'f'; ch <= 'p'; ch++)
+		putchar(ch);
+
+	for (ch = 'r'; ch <= 'z'; ch++)
+		putchar(ch);
+
+	putchar('\n');
+	return (0);
