@@ -8,16 +8,11 @@
 
 int main(void)
 {
-	ch = 0;
+	int n;
 
-	while (ch < 10)
-	{
-		printf("%d\n", ch);
-		ch++;
-
-	}
-
+	for (n = 0; n < 10; n++)
+		printf("%d", n);
+	printf("\n");
 	return (0);
-
 
 }
