@@ -1,8 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+# include <stdio.h>
+# include <stdlib.h>
 /**
- *main - this is a
+ * main - this is a
  * programme that prints
  * _putchar followed by
  * a new line
