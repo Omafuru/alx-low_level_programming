@@ -6,7 +6,7 @@
  *
  * @s: string to evaluate
  *
- * Return : Always 0.
+ * Return: Always 0.
  */
 
 int _strlen(char *s)
@@ -15,7 +15,8 @@ int _strlen(char *s)
 
 	i = 0;
 
-	while (s[i] != '\0')
+	while 
+		(s[i] != '\0')
 
 		{
 			i++;
