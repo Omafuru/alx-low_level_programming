@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void swap_int - a function that swaps the values of two integers.
+ * swap_int - a function that swaps the values of two integers.
  *
  * Return: Always 0.
  *
