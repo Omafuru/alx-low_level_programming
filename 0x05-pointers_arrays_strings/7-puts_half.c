@@ -8,7 +8,7 @@
  * Return: 0.
  */
 
-void uts_half(char *str)
+void puts_half(char *str)
 {
 	int i, l;
 
