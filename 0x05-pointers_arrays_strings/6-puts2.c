@@ -3,7 +3,7 @@
 /**
  * rev_string - reverses a string
  *
- * @s: string to reverse
+ * @str: string to reverse
  *
  * Return: Always 0.
  */
@@ -15,7 +15,7 @@ void puts2(char *str)
 
 	l = 0;
 
-	while 
+	while
 		(str[l] != '\0')
 	{
 		l++;
