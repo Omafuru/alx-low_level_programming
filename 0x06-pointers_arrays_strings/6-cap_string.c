@@ -6,29 +6,32 @@
  */
 char *cap_string(char *str)
 {
-	int a;
+	int i, j;
 
-	for (a = 0; str[a] != '\0'; a++)
+	char spe[13] = {' ', '\t', '\n', ',', ';', '.',
+		'!', '?', '"', '(', ')', '{', '}'};
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		while (str[a] >= 'a' && str[a] <= 'z')
+		if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
 		{
-			if (str[a - 1] == ' ' ||
-			str[a - 1] == '\t' ||
-			str[a - 1] == '\n' ||
-			str[a - 1] == ',' ||
-			str[a - 1] == ';' ||
-			str[a - 1] == '.' ||
-			str[a - 1] == '!' ||
-			str[a - 1] == '?' ||
-			str[a - 1] == '"' ||
-			str[a - 1] == '(' ||
-			str[a - 1] == ')' ||
-			str[a - 1] == '{' ||
-			str[a - 1] == '}' ||
-			a == 0)
-				str[a] = str[a] - 32;
-				a++;
+			s[i] -= 32;
 		}
+		for (j = 0; j < 13; j++)
+		{
+			if (s[i] == spe[j])
+			{
+				if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
+				{
+					s[i + 1] -= 32;
+				}
+
+			}
+
+		}
+
 	}
-	return (str);
+
+	return (s);
+
 }
