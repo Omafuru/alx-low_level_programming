@@ -6,18 +6,21 @@
  */
 void print_number(int n)
 {
-	unsigned int m;
+	int divisor = 1, i, resp;
 
 	if (n < 0)
 	{
-		m = -n;
 		_putchar('-');
-	} else
-	{
-		m = n;
+		n *= -1;
 	}
-	if (m / 10)
-		print_number(m / 10);
 
-	_putchar((m % 10) + '0');
+	for (i = 0; n / divisor > 9; i++, divisor *= 10)
+	;
+
+	for (; divisor >= 1; n %= divisor, divisor /= 10)
+	{
+		resp = n / divisor;
+		_putchar('0' + resp);
+	}
+
 }
