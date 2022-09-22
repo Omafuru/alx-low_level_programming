@@ -29,7 +29,7 @@ char *cap_string(char *str)
 			str[a - 1] == '{' ||
 			str[a - 1] == '}' ||
 			a == 0)
-				str[a] = str[a] - 32;
+				/*str[a] = str[a] - 32;*/
 			a++;
 		}
 	}
