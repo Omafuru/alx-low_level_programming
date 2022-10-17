@@ -9,7 +9,7 @@
 - va_copy (man 3 va_copy)                                                                             
 - va_arg (man 3 va_arg)                                                                               
                                                                                                       
-#### For this project, we expect you to look at these concepts: :Here:                              
+#### For this project, we expect you to look at these concepts:                                
 [Group Projects](https://alx-intranet.hbtn.io/concepts/111)                                           
                                                                                                       
 [Pair Programming - How To](https://alx-intranet.hbtn.io/concepts/121)                                
@@ -19,5 +19,17 @@
                                                                                                       
                                                                                                       
                                                                                                       
-Authors: [Onome Mafuru](https://github.com/Omafuru)                                     
-         [Christian Balogun](https://github.com/Highlandfury)
+Authors: [Onome Mafuru](https://github.com/Omafuru)                                                   
+         [Christian Balogun Freeman](https://github.com/Highlandfury)                                         
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+~                                                                                                     
+                                                                                    1,1           All 
+                                                                                                      
