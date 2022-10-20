@@ -36,7 +36,7 @@ Write a function that prints all the elements of a listint_t list.
 * Format: see example
 * You are allowed to use `printf`
 
-**Solution:** [0-print_listint.c](https://github.com/Hazem722/alx-low_level_programming/blob/a89ab06afe46f6d5414cfd12197680a16e98db77/0x13-more_singly_linked_lists/0-print_listint.c)
+
 
 ```
 julien@ubuntu:~/0x13. More singly linked lists$ cat 0-main.c 
@@ -88,7 +88,7 @@ Write a function that returns the number of elements in a linked `listint_t` lis
 
 * Prototype: `size_t listint_len(const listint_t *h);`
 
-**Solution:** [1-listint_len.c](https://github.com/Hazem722/alx-low_level_programming/blob/a89ab06afe46f6d5414cfd12197680a16e98db77/0x13-more_singly_linked_lists/1-listint_len.c)
+
 
 ```
 julien@ubuntu:~/0x13. More singly linked lists$ cat 1-main.c 
@@ -138,7 +138,7 @@ Write a function that adds a new node at the beginning of a `listint_t` list.
 * Prototype: `listint_t *add_nodeint(listint_t **head, const int n);`
 * Return: the address of the new element, or `NULL` if it failed
 
-**Solution:** [2-add_nodeint.c](https://github.com/Hazem722/alx-low_level_programming/blob/a89ab06afe46f6d5414cfd12197680a16e98db77/0x13-more_singly_linked_lists/2-add_nodeint.c)
+
 
 ```
 julien@ubuntu:~/0x13. More singly linked lists$ cat 2-main.c 
@@ -190,7 +190,6 @@ Write a function that adds a new node at the end of a `listint_t` list.
 * Prototype: `listint_t *add_nodeint_end(listint_t **head, const int n);`
 * Return: the address of the new element, or `NULL` if it failed
 
-**Solution:** [3-add_nodeint_end.c](https://github.com/Hazem722/alx-low_level_programming/blob/a89ab06afe46f6d5414cfd12197680a16e98db77/0x13-more_singly_linked_lists/3-add_nodeint_end.c)
 
 ```
 julien@ubuntu:~/0x13. More singly linked lists$ cat 3-main.c 
